@@ -41,8 +41,7 @@ For, use it as a remote package by adding the following to your pubspec.yaml fil
 dependencies:
   datepickerx:
     git:
-      url: https://github.com/saurabh-jareda/my_packages
-      path: package/datepickerx
+      url: https://github.com/saurabh-jareda/datepicker
 ```
 
 or, use it as a local package by adding the following to your pubspec.yaml file:
