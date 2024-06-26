@@ -1,3 +1,4 @@
+import 'package:datepickerx/datepickerx.dart';
 import 'package:flutter/material.dart';
 
 class FilledButtonPro extends StatelessWidget {
@@ -6,19 +7,22 @@ class FilledButtonPro extends StatelessWidget {
       this.textColor,
       this.buttonText,
       required this.index,
-      required this.onPressedAction});
+      required this.onPressedAction,
+      required this.locale});
   final Color? textColor;
   final String? buttonText;
   final int index;
   final void Function() onPressedAction;
+  final DateTimePickerLocale locale;
 
   @override
   Widget build(BuildContext context) {
     String displayText = buttonText.toString();
     if (index == 1) {
-      displayText = "OK";
+      displayText = DatePickerI18n.getLocaleDone(locale);
     } else if (index == 2) {
-      displayText = "Cancel";
+      displayText = DatePickerI18n.getLocaleCancel(locale);
+      ;
     }
 
     // button style based on index

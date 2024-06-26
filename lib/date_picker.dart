@@ -163,6 +163,7 @@ class DatePicker {
                     child: FilledButtonPro(
                       index: 2,
                       onPressedAction: () => Navigator.pop(context),
+                      locale: locale,
                     ),
                   ),
                   const Expanded(flex: 5, child: SizedBox()),
@@ -173,6 +174,7 @@ class DatePicker {
                               index: 1,
                               onPressedAction: () =>
                                   Navigator.pop(context, selectedDate),
+                              locale: locale,
                             )),
                   ),
                 ],
