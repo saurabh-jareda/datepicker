@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Italian (IT)
-class _StringsIt extends _StringsI18n {
-  const _StringsIt();
+class _StringsItIt extends _StringsI18n {
+  const _StringsItIt();
 
   @override
   String getCancelText() {

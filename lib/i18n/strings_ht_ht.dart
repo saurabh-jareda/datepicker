@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// English (EN) United States
-class _StringsHt extends _StringsI18n {
-  const _StringsHt();
+class _StringsHtHt extends _StringsI18n {
+  const _StringsHtHt();
 
   @override
   String getCancelText() {

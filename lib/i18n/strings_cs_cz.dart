@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Czech (CZ)
-class _StringsCz extends _StringsI18n {
-  const _StringsCz();
+class _StringsCsCz extends _StringsI18n {
+  const _StringsCsCz();
 
   @override
   String getCancelText() {

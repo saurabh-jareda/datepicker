@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Romanian (RO)
-class _StringsRo extends _StringsI18n {
-  const _StringsRo();
+class _StringsRoRo extends _StringsI18n {
+  const _StringsRoRo();
 
   @override
   String getCancelText() {

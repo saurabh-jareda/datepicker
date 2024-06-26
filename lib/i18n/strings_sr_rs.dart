@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Serbian (SR)
-class _StringsSr extends _StringsI18n {
-  const _StringsSr();
+class _StringsSrRs extends _StringsI18n {
+  const _StringsSrRs();
 
   @override
   String getCancelText() {

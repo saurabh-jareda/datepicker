@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// French (FR)
-class _StringsFr extends _StringsI18n {
-  const _StringsFr();
+class _StringsFrFr extends _StringsI18n {
+  const _StringsFrFr();
 
   @override
   String getCancelText() {

@@ -1,7 +1,7 @@
 part of datepickerx;
 
-class _StringsId extends _StringsI18n {
-  const _StringsId();
+class _StringsIdId extends _StringsI18n {
+  const _StringsIdId();
 
   @override
   String getCancelText() {

@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// German (DE)
-class _StringsDe extends _StringsI18n {
-  const _StringsDe();
+class _StringsDeDe extends _StringsI18n {
+  const _StringsDeDe();
 
   @override
   String getCancelText() {

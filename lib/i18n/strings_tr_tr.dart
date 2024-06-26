@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Turkish (TR)
-class _StringsTr extends _StringsI18n {
-  const _StringsTr();
+class _StringsTrTr extends _StringsI18n {
+  const _StringsTrTr();
 
   @override
   String getCancelText() {

@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Japanese (JP)
-class _StringsJp extends _StringsI18n {
-  const _StringsJp();
+class _StringsJaJp extends _StringsI18n {
+  const _StringsJaJp();
 
   @override
   String getCancelText() {

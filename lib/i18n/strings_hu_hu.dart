@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Hungarian
-class _StringsHu extends _StringsI18n {
-  const _StringsHu();
+class _StringsHuHu extends _StringsI18n {
+  const _StringsHuHu();
 
   @override
   String getCancelText() {

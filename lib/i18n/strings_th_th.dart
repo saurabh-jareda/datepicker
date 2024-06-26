@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Thai (TH) Thai Land
-class _StringsTh extends _StringsI18n {
-  const _StringsTh();
+class _StringsThTh extends _StringsI18n {
+  const _StringsThTh();
 
   @override
   String getCancelText() {

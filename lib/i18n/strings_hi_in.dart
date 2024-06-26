@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Hindi (HI) India
-class _StringsHi extends _StringsI18n {
-  const _StringsHi();
+class _StringsHiIn extends _StringsI18n {
+  const _StringsHiIn();
 
   @override
   String getCancelText() {

@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Polish (PL) Poland
-class _StringsPl extends _StringsI18n {
-  const _StringsPl();
+class _StringsPlPl extends _StringsI18n {
+  const _StringsPlPl();
 
   @override
   String getCancelText() {

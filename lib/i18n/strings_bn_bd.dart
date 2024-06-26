@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Bengali (BN)
-class _StringsBn extends _StringsI18n {
-  const _StringsBn();
+class _StringsBnBd extends _StringsI18n {
+  const _StringsBnBd();
 
   @override
   String getCancelText() {

@@ -29,80 +29,80 @@ enum DateTimePickerLocale {
   /// Portuguese (PT) Brazil
   pt_br,
 
-  /// Spanish (ES)
-  es,
+  /// Spanish (ES) Spain
+  es_es,
 
-  /// Romanian (RO)
-  ro,
+  /// Romanian (RO) Romania
+  ro_ro,
 
-  /// Bengali (BN)
-  bn,
+  /// Bengali (BN) Bangladesh
+  bn_bd,
 
-  /// Arabic (AR)
-  ar,
+  /// Arabic (AR) Saudi Arabia
+  ar_sa,
 
-  /// Japanese (JP)
-  jp,
+  /// Japanese (JA) Japan
+  ja_jp,
 
-  /// Russian (RU)
-  ru,
+  /// Russian (RU) Russia
+  ru_ru,
 
-  /// German (DE)
-  de,
+  /// German (DE) Germany
+  de_de,
 
-  /// Korea (KO)
-  ko,
+  /// Korean (KO) South Korea
+  ko_kr,
 
-  /// Italian (IT)
-  it,
+  /// Italian (IT) Italy
+  it_it,
 
-  /// Hindi (IN)
-  hi,
+  /// Hindi (HI) India
+  hi_in,
 
-  /// Hungarian (HU)
-  hu,
+  /// Hungarian (HU) Hungary
+  hu_hu,
 
-  /// Hebrew (HE)
-  he,
+  /// Hebrew (HE) Israel
+  he_il,
 
-  /// Indonesian (ID)
-  id,
+  /// Indonesian (ID) Indonesia
+  id_id,
 
-  /// Turkish (TR)
-  tr,
+  /// Turkish (TR) Turkey
+  tr_tr,
 
-  /// Norwegian Bokmål (NO)
+  /// Norwegian Bokmål (NO) Norway
   no_nb,
 
-  /// Norwegian Nynorsk (NO)
+  /// Norwegian Nynorsk (NO) Norway
   no_nn,
 
-  /// French (FR)
-  fr,
+  /// French (FR) France
+  fr_fr,
 
-  /// Thai (TH)
-  th,
+  /// Thai (TH) Thailand
+  th_th,
 
-  /// Lithuaniana (LT)
-  lt,
+  /// Lithuanian (LT) Lithuania
+  lt_lt,
 
-  /// Dutch (NL)
-  nl,
+  /// Dutch (NL) Netherlands
+  nl_nl,
 
-  /// Haitian Creole (HT)
-  ht,
+  /// Haitian Creole (HT) Haiti
+  ht_ht,
 
-  /// Swedish (SV)
-  sv,
+  /// Swedish (SV) Sweden
+  sv_se,
 
-  /// Czech (CZ)
-  cz,
+  /// Czech (CZ) Czech Republic
+  cs_cz,
 
-  /// Polish (PL)
-  pl,
+  /// Polish (PL) Poland
+  pl_pl,
 
-  /// Serbian (SR)
-  sr,
+  /// Serbian (SR) Serbia
+  sr_rs,
 }
 
 /// Default value of date locale
@@ -113,31 +113,31 @@ const Map<DateTimePickerLocale, _StringsI18n> datePickerI18n = {
   DateTimePickerLocale.en_us: _StringsEnUs(),
   DateTimePickerLocale.zh_cn: _StringsZhCn(),
   DateTimePickerLocale.pt_br: _StringsPtBr(),
-  DateTimePickerLocale.es: _StringsEs(),
-  DateTimePickerLocale.ro: _StringsRo(),
-  DateTimePickerLocale.bn: _StringsBn(),
-  DateTimePickerLocale.ar: _StringsAr(),
-  DateTimePickerLocale.jp: _StringsJp(),
-  DateTimePickerLocale.ru: _StringsRu(),
-  DateTimePickerLocale.de: _StringsDe(),
-  DateTimePickerLocale.ko: _StringsKo(),
-  DateTimePickerLocale.it: _StringsIt(),
-  DateTimePickerLocale.hu: _StringsHu(),
-  DateTimePickerLocale.hi: _StringsHi(),
-  DateTimePickerLocale.he: _StringsHe(),
-  DateTimePickerLocale.id: _StringsId(),
-  DateTimePickerLocale.tr: _StringsTr(),
+  DateTimePickerLocale.es_es: _StringsEsEs(),
+  DateTimePickerLocale.ro_ro: _StringsRoRo(),
+  DateTimePickerLocale.bn_bd: _StringsBnBd(),
+  DateTimePickerLocale.ar_sa: _StringsArSa(),
+  DateTimePickerLocale.ja_jp: _StringsJaJp(),
+  DateTimePickerLocale.ru_ru: _StringsRuRu(),
+  DateTimePickerLocale.de_de: _StringsDeDe(),
+  DateTimePickerLocale.ko_kr: _StringsKoKr(),
+  DateTimePickerLocale.it_it: _StringsItIt(),
+  DateTimePickerLocale.hi_in: _StringsHiIn(),
+  DateTimePickerLocale.hu_hu: _StringsHuHu(),
+  DateTimePickerLocale.he_il: _StringsHeIl(),
+  DateTimePickerLocale.id_id: _StringsIdId(),
+  DateTimePickerLocale.tr_tr: _StringsTrTr(),
   DateTimePickerLocale.no_nb: _StringsNoNb(),
   DateTimePickerLocale.no_nn: _StringsNoNn(),
-  DateTimePickerLocale.nl: _StringsNl(),
-  DateTimePickerLocale.fr: _StringsFr(),
-  DateTimePickerLocale.th: _StringsTh(),
-  DateTimePickerLocale.lt: _StringsLt(),
-  DateTimePickerLocale.ht: _StringsHt(),
-  DateTimePickerLocale.sv: _StringsSv(),
-  DateTimePickerLocale.cz: _StringsCz(),
-  DateTimePickerLocale.pl: _StringsPl(),
-  DateTimePickerLocale.sr: _StringsSr(),
+  DateTimePickerLocale.nl_nl: _StringsNlNl(),
+  DateTimePickerLocale.fr_fr: _StringsFrFr(),
+  DateTimePickerLocale.th_th: _StringsThTh(),
+  DateTimePickerLocale.lt_lt: _StringsLtLt(),
+  DateTimePickerLocale.ht_ht: _StringsHtHt(),
+  DateTimePickerLocale.sv_se: _StringsSvSe(),
+  DateTimePickerLocale.cs_cz: _StringsCsCz(),
+  DateTimePickerLocale.pl_pl: _StringsPlPl(),
+  DateTimePickerLocale.sr_rs: _StringsSrRs(),
 };
 
 class DatePickerI18n {

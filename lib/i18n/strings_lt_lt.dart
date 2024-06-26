@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Lithuanian (LT)
-class _StringsLt extends _StringsI18n {
-  const _StringsLt();
+class _StringsLtLt extends _StringsI18n {
+  const _StringsLtLt();
 
   @override
   String getCancelText() {

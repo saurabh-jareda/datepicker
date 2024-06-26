@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Korea (KO)
-class _StringsKo extends _StringsI18n {
-  const _StringsKo();
+class _StringsKoKr extends _StringsI18n {
+  const _StringsKoKr();
 
   @override
   String getCancelText() {

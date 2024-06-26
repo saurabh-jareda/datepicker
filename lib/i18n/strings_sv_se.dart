@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Swedish (SV)
-class _StringsSv extends _StringsI18n {
-  const _StringsSv();
+class _StringsSvSe extends _StringsI18n {
+  const _StringsSvSe();
 
   @override
   String getCancelText() {

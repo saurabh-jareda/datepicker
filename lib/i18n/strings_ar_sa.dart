@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Arabic (AR)
-class _StringsAr extends _StringsI18n {
-  const _StringsAr();
+class _StringsArSa extends _StringsI18n {
+  const _StringsArSa();
 
   @override
   String getCancelText() {

@@ -1,8 +1,8 @@
 part of datepickerx;
 
 /// Hebrew (HE)
-class _StringsHe extends _StringsI18n {
-  const _StringsHe();
+class _StringsHeIl extends _StringsI18n {
+  const _StringsHeIl();
 
   @override
   String getCancelText() {
