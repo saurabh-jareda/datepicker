@@ -19,49 +19,49 @@ class DatePicker {
       case 'pt':
         return DateTimePickerLocale.pt_br;
       case 'es':
-        return DateTimePickerLocale.es;
+        return DateTimePickerLocale.es_es;
       case 'ro':
-        return DateTimePickerLocale.ro;
+        return DateTimePickerLocale.ro_ro;
       case 'bn':
-        return DateTimePickerLocale.bn;
+        return DateTimePickerLocale.bn_bd;
       case 'ar':
-        return DateTimePickerLocale.ar;
+        return DateTimePickerLocale.ar_sa;
       case 'jp':
-        return DateTimePickerLocale.jp;
+        return DateTimePickerLocale.ja_jp;
       case 'ru':
-        return DateTimePickerLocale.ru;
+        return DateTimePickerLocale.ru_ru;
       case 'de':
-        return DateTimePickerLocale.de;
+        return DateTimePickerLocale.de_de;
       case 'ko':
-        return DateTimePickerLocale.ko;
+        return DateTimePickerLocale.ko_kr;
       case 'it':
-        return DateTimePickerLocale.it;
+        return DateTimePickerLocale.it_it;
       case 'hu':
-        return DateTimePickerLocale.hu;
+        return DateTimePickerLocale.hu_hu;
       case 'he':
-        return DateTimePickerLocale.he;
+        return DateTimePickerLocale.he_il;
       case 'id':
-        return DateTimePickerLocale.id;
+        return DateTimePickerLocale.id_id;
       case 'tr':
-        return DateTimePickerLocale.tr;
+        return DateTimePickerLocale.tr_tr;
       case 'nb':
         return DateTimePickerLocale.no_nb;
       case 'nn':
         return DateTimePickerLocale.no_nn;
       case 'fr':
-        return DateTimePickerLocale.fr;
+        return DateTimePickerLocale.fr_fr;
       case 'th':
-        return DateTimePickerLocale.th;
+        return DateTimePickerLocale.th_th;
       case 'nl':
-        return DateTimePickerLocale.nl;
+        return DateTimePickerLocale.nl_nl;
       case 'ht':
-        return DateTimePickerLocale.ht;
+        return DateTimePickerLocale.ht_ht;
       case 'sv':
-        return DateTimePickerLocale.sv;
+        return DateTimePickerLocale.sv_se;
       case 'cz':
-        return DateTimePickerLocale.cz;
+        return DateTimePickerLocale.cs_cz;
       case 'pl':
-        return DateTimePickerLocale.pl;
+        return DateTimePickerLocale.pl_pl;
       default:
         return DateTimePickerLocale.en_us;
     }
