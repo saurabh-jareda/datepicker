@@ -164,6 +164,7 @@ class DatePicker {
                       index: 2,
                       onPressedAction: () => Navigator.pop(context),
                       locale: locale,
+                      buttonText: cancelText,
                     ),
                   ),
                   const Expanded(flex: 5, child: SizedBox()),
@@ -175,6 +176,7 @@ class DatePicker {
                               onPressedAction: () =>
                                   Navigator.pop(context, selectedDate),
                               locale: locale,
+                              buttonText: confirmText,
                             )),
                   ),
                 ],

@@ -19,10 +19,9 @@ class FilledButtonPro extends StatelessWidget {
   Widget build(BuildContext context) {
     String displayText = buttonText.toString();
     if (index == 1) {
-      displayText = DatePickerI18n.getLocaleDone(locale);
+      displayText = buttonText ?? DatePickerI18n.getLocaleDone(locale);
     } else if (index == 2) {
-      displayText = DatePickerI18n.getLocaleCancel(locale);
-      ;
+      displayText = buttonText ?? DatePickerI18n.getLocaleCancel(locale);
     }
 
     // button style based on index
